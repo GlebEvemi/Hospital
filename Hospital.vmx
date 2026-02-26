@@ -1,0 +1,527 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9008"
+	"mapversion" "5"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "5"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "4"
+		side
+		{
+			"id" "13"
+			"plane" "(-2048 -10176 64) (-2048 2048 64) (5120 2048 64)"
+			"material" "METAL/METALWALL086A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-2048 2048 0) (-2048 -10176 0) (5120 -10176 0)"
+			"material" "METAL/METALWALL086A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-2048 -10176 0) (-2048 2048 0) (-2048 2048 64)"
+			"material" "METAL/METALWALL086A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(5120 2048 0) (5120 -10176 0) (5120 -10176 64)"
+			"material" "METAL/METALWALL086A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(-2048 2048 0) (5120 2048 0) (5120 2048 64)"
+			"material" "METAL/METALWALL086A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(5120 -10176 0) (-2048 -10176 0) (-2048 -10176 64)"
+			"material" "METAL/METALWALL086A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 255 208"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "11"
+		side
+		{
+			"id" "19"
+			"plane" "(-2112 -10304 3072) (-2112 1920 3072) (-2048 1920 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(-2112 1920 64) (-2112 -10304 64) (-2048 -10304 64)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(-2112 -10304 64) (-2112 1920 64) (-2112 1920 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 1 0 768] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(-2048 1920 64) (-2048 -10304 64) (-2048 -10304 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 1 0 768] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(-2112 1920 64) (-2048 1920 64) (-2048 1920 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24"
+			"plane" "(-2048 -10304 64) (-2112 -10304 64) (-2112 -10304 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 173 250"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "13"
+		side
+		{
+			"id" "36"
+			"plane" "(5120 -10176 3072) (5120 2048 3072) (5184 2048 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(5120 2048 64.0001) (5120 -10176 64.0001) (5184 -10176 64.0001)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(5120 -10176 64.0001) (5120 2048 64.0001) (5120 2048 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 1 0 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(5184 2048 64.0001) (5184 -10176 64.0001) (5184 -10176 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 1 0 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(5120 2048 64.0001) (5184 2048 64.0001) (5184 2048 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "31"
+			"plane" "(5184 -10176 64.0001) (5120 -10176 64.0001) (5120 -10176 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 173 250"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "33"
+		side
+		{
+			"id" "72"
+			"plane" "(5184 -10176 3136) (-2112 -10176 3136) (-2112 2048 3136)"
+			"material" "SKYBOX/SKY_CLEOPAS2_HDRBK"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(5184 2048 3072) (-2112 2048 3072) (-2112 -10176 3072)"
+			"material" "SKYBOX/SKY_CLEOPAS2_HDRBK"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "70"
+			"plane" "(-2112 2048 3072) (5184 2048 3072) (5184 2048 3136)"
+			"material" "SKYBOX/SKY_CLEOPAS2_HDRBK"
+			"uaxis" "[1 0 0 -63.996] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "69"
+			"plane" "(5184 -10176 3072) (-2112 -10176 3072) (-2112 -10176 3136)"
+			"material" "SKYBOX/SKY_CLEOPAS2_HDRBK"
+			"uaxis" "[1 0 0 -63.996] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "68"
+			"plane" "(5184 2048 3072) (5184 -10176 3072) (5184 -10176 3136)"
+			"material" "SKYBOX/SKY_CLEOPAS2_HDRBK"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "67"
+			"plane" "(-2112 -10176 3072) (-2112 2048 3072) (-2112 2048 3136)"
+			"material" "SKYBOX/SKY_CLEOPAS2_HDRBK"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 173 250"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "104"
+		side
+		{
+			"id" "84"
+			"plane" "(-2048 2048 3072) (5120 2048 3072) (5120 1984 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 -1 0 -127.996] 0.25"
+			"vaxis" "[-1 0 0 384.002] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "83"
+			"plane" "(5120 2048 64) (-2048 2048 64) (-2048 1984 64)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 -1 0 -127.996] 0.25"
+			"vaxis" "[-1 0 0 384.002] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "82"
+			"plane" "(-2048 2048 64) (5120 2048 64) (5120 2048 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 -384.002] 0.25"
+			"vaxis" "[0 0 -1 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81"
+			"plane" "(5120 1984 64) (-2048 1984 64) (-2048 1984 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 -384.002] 0.25"
+			"vaxis" "[0 0 -1 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "80"
+			"plane" "(5120 2048 64) (5120 1984 64) (5120 1984 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 -1 0 -127.996] 0.25"
+			"vaxis" "[0 0 -1 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "79"
+			"plane" "(-2048 1984 64) (-2048 2048 64) (-2048 2048 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 -1 0 -127.996] 0.25"
+			"vaxis" "[0 0 -1 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 173 250"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "130"
+		side
+		{
+			"id" "96"
+			"plane" "(-2048 -10112 3072) (5120 -10112 3072) (5120 -10176 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 -1 0 -639.996] 0.25"
+			"vaxis" "[-1 0 0 -383.997] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "95"
+			"plane" "(5120 -10112 64) (-2048 -10112 64) (-2048 -10176 64)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 -1 0 -639.996] 0.25"
+			"vaxis" "[-1 0 0 -383.997] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "94"
+			"plane" "(-2048 -10112 64) (5120 -10112 64) (5120 -10112 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 383.997] 0.25"
+			"vaxis" "[0 0 -1 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "93"
+			"plane" "(5120 -10176 64) (-2048 -10176 64) (-2048 -10176 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[1 0 0 383.997] 0.25"
+			"vaxis" "[0 0 -1 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "92"
+			"plane" "(5120 -10112 64) (5120 -10176 64) (5120 -10176 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 -1 0 -639.996] 0.25"
+			"vaxis" "[0 0 -1 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "91"
+			"plane" "(-2048 -10176 64) (-2048 -10112 64) (-2048 -10112 3072)"
+			"material" "SKYBOX/SKY_MIDWEST_HDRRT"
+			"uaxis" "[0 -1 0 -639.996] 0.25"
+			"vaxis" "[0 0 -1 384] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 173 250"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "137"
+	"classname" "light"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "1536 -4032 3008"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "152"
+	"classname" "info_player_nmrih"
+	"angles" "0 0 0"
+	"default_spawn" "1"
+	"origin" "1536 0 128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

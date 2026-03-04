@@ -2599,3 +2599,136 @@ Level flags = 0
 Total triangle count: 3275
 Writing c:\users\lee\desktop\haigla\hospital\Hospital.bsp
 7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\nmrih\nmrih\materials
+Loading C:\Users\lee\Desktop\Haigla\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\lee\Desktop\Haigla\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (24802 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 203 texinfos to 122
+Reduced 13 texdatas to 13 (373 bytes to 373)
+Writing C:\Users\lee\Desktop\Haigla\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\lee\Desktop\Haigla\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+3 seconds elapsed
+
+
+
+8 threads
+reading c:\users\lee\desktop\haigla\hospital\Hospital.bsp
+reading c:\users\lee\desktop\haigla\hospital\Hospital.prt
+ 247 portalclusters
+ 615 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 104 visible clusters (0.19%)
+Total clusters visible: 55221
+Average clusters visible: 223
+Building PAS...
+Average clusters audible: 247
+visdatasize:17302  compressed from 15808
+writing c:\users\lee\desktop\haigla\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\lee\desktop\haigla\hospital\Hospital.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading c:\users\lee\desktop\haigla\hospital\Hospital.bsp
+1342 faces
+1577255 square feet [227124768.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1342 patches before subdivision
+59808 patches after subdivision
+WARNING: light_spot at (-480 -9576 407) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-480 -9576 407) has outer angle larger than 90 degrees! Clamping to 90...
+82 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3068189, max 943
+transfer lists:  23.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(16917, 16202, 12567)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1014, 887, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(86, 73, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(9, 7, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0196 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 74/8192          888/98304    ( 0.9%) 
+brushsides             444/65536        3552/524288   ( 0.7%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes              1729/65536       20748/786432   ( 2.6%) 
+nodes                  602/65536       19264/2097152  ( 0.9%) 
+texinfos               122/12288        8784/884736   ( 1.0%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1342/65536       75152/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              178/65536        9968/3670016  ( 0.3%) 
+leaves                 608/65536       19456/2097152  ( 0.9%) 
+leaffaces             1529/65536        3058/131072   ( 2.3%) 
+leafbrushes            397/65536         794/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             6671/512000      26684/2048000  ( 1.3%) 
+edges                 3577/256000      14308/1024000  ( 1.4%) 
+LDR worldlights         82/8192         7216/720896   ( 1.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             62/32768         620/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           840/65536        1680/131072   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1737648/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17302/16777216 ( 0.1%) 
+entdata               [variable]       23073/393216   ( 5.9%) 
+LDR ambient table      608/65536        2432/262144   ( 0.9%) 
+HDR ambient table      608/65536        2432/262144   ( 0.9%) 
+LDR leaf ambient      2932/65536       82096/1835008  ( 4.5%) 
+HDR leaf ambient       608/65536       17024/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4668     ( 0.0%) 
+pakfile               [variable]      105663/0        ( 0.0%) 
+physics               [variable]       24802/4194304  ( 0.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3275
+Writing c:\users\lee\desktop\haigla\hospital\Hospital.bsp
+6 seconds elapsed

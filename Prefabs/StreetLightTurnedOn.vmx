@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8870"
-	"mapversion" "170"
+	"mapversion" "169"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -86,7 +86,7 @@ bgimages_plus
 world
 {
 	"id" "60559"
-	"mapversion" "170"
+	"mapversion" "169"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"

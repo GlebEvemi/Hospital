@@ -1,0 +1,72 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8870"
+	"mapversion" "273"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "305960"
+	"mapversion" "273"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	group
+	{
+		"id" "305961"
+		editor
+		{
+			"color" "220 125 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "305962"
+	"classname" "env_projectedtexture"
+	"angles" "90 0 0"
+	"farz" "1000"
+	"lightcolor" "246 157 42 200"
+	"lightfov" "90.0"
+	"lightworld" "1"
+	"nearz" "4.0"
+	"shadowquality" "1"
+	"spawnflags" "1"
+	"origin" "-815 -7855 264.125"
+	editor
+	{
+		"color" "220 125 0"
+		"groupid" "305961"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "305965"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props/street/light_post4.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-815 -7854.88 136"
+	editor
+	{
+		"color" "220 125 0"
+		"groupid" "305961"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}

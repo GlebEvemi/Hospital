@@ -11971,3 +11971,2412 @@ Level flags = 0
 Total triangle count: 4121
 Writing h:\hammer project\hospital\Hospital.bsp
 7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 276 texinfos to 181
+Reduced 15 texdatas to 15 (429 bytes to 429)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+1 second elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 328 portalclusters
+ 846 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 49 visible clusters (0.05%)
+Total clusters visible: 92527
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 328
+visdatasize:29570  compressed from 31488
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+1623 faces
+1724772 square feet [248367296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1623 patches before subdivision
+64751 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3364912, max 1106
+transfer lists:  25.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12794, 12396, 9495)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(841, 772, 361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(70, 61, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0112 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                120/8192         1440/98304    ( 1.5%) 
+brushsides             721/65536        5768/524288   ( 1.1%) 
+planes                 318/65536        6360/1310720  ( 0.5%) 
+vertexes              2230/65536       26760/786432   ( 3.4%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               181/12288       13032/884736   ( 1.5%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1623/65536       90888/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              298/65536       16688/3670016  ( 0.5%) 
+leaves                 737/65536       23584/2097152  ( 1.1%) 
+leaffaces             1892/65536        3784/131072   ( 2.9%) 
+leafbrushes            517/65536        1034/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8557/512000      34228/2048000  ( 1.7%) 
+edges                 4721/256000      18884/1024000  ( 1.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1629/65536        3258/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1841696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29570/16777216 ( 0.2%) 
+entdata               [variable]       19125/393216   ( 4.9%) 
+LDR ambient table      737/65536        2948/262144   ( 1.1%) 
+HDR ambient table      737/65536        2948/262144   ( 1.1%) 
+LDR leaf ambient      3785/65536      105980/1835008  ( 5.8%) 
+HDR leaf ambient       737/65536       20636/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11758    ( 0.0%) 
+pakfile               [variable]      105663/0        ( 0.0%) 
+physics               [variable]       45282/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4121
+Writing h:\hammer project\hospital\Hospital.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 276 texinfos to 181
+Reduced 15 texdatas to 15 (429 bytes to 429)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 328 portalclusters
+ 846 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 49 visible clusters (0.05%)
+Total clusters visible: 92527
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 328
+visdatasize:29570  compressed from 31488
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+1623 faces
+1724772 square feet [248367296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1623 patches before subdivision
+64751 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3364912, max 1106
+transfer lists:  25.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12794, 12396, 9495)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(841, 772, 361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(70, 61, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0110 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                120/8192         1440/98304    ( 1.5%) 
+brushsides             721/65536        5768/524288   ( 1.1%) 
+planes                 318/65536        6360/1310720  ( 0.5%) 
+vertexes              2230/65536       26760/786432   ( 3.4%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               181/12288       13032/884736   ( 1.5%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1623/65536       90888/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              298/65536       16688/3670016  ( 0.5%) 
+leaves                 737/65536       23584/2097152  ( 1.1%) 
+leaffaces             1892/65536        3784/131072   ( 2.9%) 
+leafbrushes            517/65536        1034/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8557/512000      34228/2048000  ( 1.7%) 
+edges                 4721/256000      18884/1024000  ( 1.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1629/65536        3258/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1841696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29570/16777216 ( 0.2%) 
+entdata               [variable]       19125/393216   ( 4.9%) 
+LDR ambient table      737/65536        2948/262144   ( 1.1%) 
+HDR ambient table      737/65536        2948/262144   ( 1.1%) 
+LDR leaf ambient      3785/65536      105980/1835008  ( 5.8%) 
+HDR leaf ambient       737/65536       20636/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11758    ( 0.0%) 
+pakfile               [variable]      105663/0        ( 0.0%) 
+physics               [variable]       45282/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4121
+Writing h:\hammer project\hospital\Hospital.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 276 texinfos to 181
+Reduced 15 texdatas to 15 (429 bytes to 429)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 328 portalclusters
+ 846 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 49 visible clusters (0.05%)
+Total clusters visible: 92527
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 328
+visdatasize:29570  compressed from 31488
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+1623 faces
+1724772 square feet [248367296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1623 patches before subdivision
+64751 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3364912, max 1106
+transfer lists:  25.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12794, 12396, 9495)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(841, 772, 361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(70, 61, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0108 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                120/8192         1440/98304    ( 1.5%) 
+brushsides             721/65536        5768/524288   ( 1.1%) 
+planes                 318/65536        6360/1310720  ( 0.5%) 
+vertexes              2230/65536       26760/786432   ( 3.4%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               181/12288       13032/884736   ( 1.5%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1623/65536       90888/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              298/65536       16688/3670016  ( 0.5%) 
+leaves                 737/65536       23584/2097152  ( 1.1%) 
+leaffaces             1892/65536        3784/131072   ( 2.9%) 
+leafbrushes            517/65536        1034/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8557/512000      34228/2048000  ( 1.7%) 
+edges                 4721/256000      18884/1024000  ( 1.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1629/65536        3258/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1841696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29570/16777216 ( 0.2%) 
+entdata               [variable]       19125/393216   ( 4.9%) 
+LDR ambient table      737/65536        2948/262144   ( 1.1%) 
+HDR ambient table      737/65536        2948/262144   ( 1.1%) 
+LDR leaf ambient      3785/65536      105980/1835008  ( 5.8%) 
+HDR leaf ambient       737/65536       20636/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11758    ( 0.0%) 
+pakfile               [variable]      105663/0        ( 0.0%) 
+physics               [variable]       45282/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4121
+Writing h:\hammer project\hospital\Hospital.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 276 texinfos to 181
+Reduced 15 texdatas to 15 (429 bytes to 429)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 328 portalclusters
+ 846 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 49 visible clusters (0.05%)
+Total clusters visible: 92527
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 328
+visdatasize:29570  compressed from 31488
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+1623 faces
+1724772 square feet [248367296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1623 patches before subdivision
+64751 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3364912, max 1106
+transfer lists:  25.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12794, 12396, 9495)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(841, 772, 361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(70, 61, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0118 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                120/8192         1440/98304    ( 1.5%) 
+brushsides             721/65536        5768/524288   ( 1.1%) 
+planes                 318/65536        6360/1310720  ( 0.5%) 
+vertexes              2230/65536       26760/786432   ( 3.4%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               181/12288       13032/884736   ( 1.5%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1623/65536       90888/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              298/65536       16688/3670016  ( 0.5%) 
+leaves                 737/65536       23584/2097152  ( 1.1%) 
+leaffaces             1892/65536        3784/131072   ( 2.9%) 
+leafbrushes            517/65536        1034/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8557/512000      34228/2048000  ( 1.7%) 
+edges                 4721/256000      18884/1024000  ( 1.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1629/65536        3258/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1841696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29570/16777216 ( 0.2%) 
+entdata               [variable]       22001/393216   ( 5.6%) 
+LDR ambient table      737/65536        2948/262144   ( 1.1%) 
+HDR ambient table      737/65536        2948/262144   ( 1.1%) 
+LDR leaf ambient      3786/65536      106008/1835008  ( 5.8%) 
+HDR leaf ambient       737/65536       20636/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11758    ( 0.0%) 
+pakfile               [variable]      105663/0        ( 0.0%) 
+physics               [variable]       45282/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4121
+Writing h:\hammer project\hospital\Hospital.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 276 texinfos to 181
+Reduced 15 texdatas to 15 (429 bytes to 429)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+1 second elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 328 portalclusters
+ 846 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 49 visible clusters (0.05%)
+Total clusters visible: 92527
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 328
+visdatasize:29570  compressed from 31488
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+1623 faces
+1724772 square feet [248367296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1623 patches before subdivision
+64751 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3364912, max 1106
+transfer lists:  25.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12794, 12396, 9495)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(841, 772, 361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(70, 61, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0111 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                120/8192         1440/98304    ( 1.5%) 
+brushsides             721/65536        5768/524288   ( 1.1%) 
+planes                 318/65536        6360/1310720  ( 0.5%) 
+vertexes              2230/65536       26760/786432   ( 3.4%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               181/12288       13032/884736   ( 1.5%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1623/65536       90888/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              298/65536       16688/3670016  ( 0.5%) 
+leaves                 737/65536       23584/2097152  ( 1.1%) 
+leaffaces             1892/65536        3784/131072   ( 2.9%) 
+leafbrushes            517/65536        1034/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8557/512000      34228/2048000  ( 1.7%) 
+edges                 4721/256000      18884/1024000  ( 1.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1629/65536        3258/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1841696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29570/16777216 ( 0.2%) 
+entdata               [variable]       22009/393216   ( 5.6%) 
+LDR ambient table      737/65536        2948/262144   ( 1.1%) 
+HDR ambient table      737/65536        2948/262144   ( 1.1%) 
+LDR leaf ambient      3785/65536      105980/1835008  ( 5.8%) 
+HDR leaf ambient       737/65536       20636/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11758    ( 0.0%) 
+pakfile               [variable]      105663/0        ( 0.0%) 
+physics               [variable]       45282/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4121
+Writing h:\hammer project\hospital\Hospital.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 276 texinfos to 181
+Reduced 15 texdatas to 15 (429 bytes to 429)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+1 second elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 328 portalclusters
+ 846 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 49 visible clusters (0.05%)
+Total clusters visible: 92527
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 328
+visdatasize:29570  compressed from 31488
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+1623 faces
+1724772 square feet [248367296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1623 patches before subdivision
+64751 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3364912, max 1106
+transfer lists:  25.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12794, 12396, 9495)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(841, 772, 361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(70, 61, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0110 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                120/8192         1440/98304    ( 1.5%) 
+brushsides             721/65536        5768/524288   ( 1.1%) 
+planes                 318/65536        6360/1310720  ( 0.5%) 
+vertexes              2230/65536       26760/786432   ( 3.4%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               181/12288       13032/884736   ( 1.5%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1623/65536       90888/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              298/65536       16688/3670016  ( 0.5%) 
+leaves                 737/65536       23584/2097152  ( 1.1%) 
+leaffaces             1892/65536        3784/131072   ( 2.9%) 
+leafbrushes            517/65536        1034/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8557/512000      34228/2048000  ( 1.7%) 
+edges                 4721/256000      18884/1024000  ( 1.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1629/65536        3258/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1841696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29570/16777216 ( 0.2%) 
+entdata               [variable]       22009/393216   ( 5.6%) 
+LDR ambient table      737/65536        2948/262144   ( 1.1%) 
+HDR ambient table      737/65536        2948/262144   ( 1.1%) 
+LDR leaf ambient      3785/65536      105980/1835008  ( 5.8%) 
+HDR leaf ambient       737/65536       20636/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11758    ( 0.0%) 
+pakfile               [variable]      105663/0        ( 0.0%) 
+physics               [variable]       45282/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4121
+Writing h:\hammer project\hospital\Hospital.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 276 texinfos to 181
+Reduced 15 texdatas to 15 (429 bytes to 429)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+1 second elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 328 portalclusters
+ 846 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 49 visible clusters (0.05%)
+Total clusters visible: 92527
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 328
+visdatasize:29570  compressed from 31488
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+1623 faces
+1724772 square feet [248367296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1623 patches before subdivision
+64751 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3364912, max 1106
+transfer lists:  25.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12794, 12396, 9495)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(841, 772, 361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(70, 61, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0112 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                120/8192         1440/98304    ( 1.5%) 
+brushsides             721/65536        5768/524288   ( 1.1%) 
+planes                 318/65536        6360/1310720  ( 0.5%) 
+vertexes              2230/65536       26760/786432   ( 3.4%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               181/12288       13032/884736   ( 1.5%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1623/65536       90888/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              298/65536       16688/3670016  ( 0.5%) 
+leaves                 737/65536       23584/2097152  ( 1.1%) 
+leaffaces             1892/65536        3784/131072   ( 2.9%) 
+leafbrushes            517/65536        1034/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8557/512000      34228/2048000  ( 1.7%) 
+edges                 4721/256000      18884/1024000  ( 1.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1629/65536        3258/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1841696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29570/16777216 ( 0.2%) 
+entdata               [variable]       22009/393216   ( 5.6%) 
+LDR ambient table      737/65536        2948/262144   ( 1.1%) 
+HDR ambient table      737/65536        2948/262144   ( 1.1%) 
+LDR leaf ambient      3785/65536      105980/1835008  ( 5.8%) 
+HDR leaf ambient       737/65536       20636/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11758    ( 0.0%) 
+pakfile               [variable]      105663/0        ( 0.0%) 
+physics               [variable]       45282/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4121
+Writing h:\hammer project\hospital\Hospital.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 276 texinfos to 181
+Reduced 15 texdatas to 15 (429 bytes to 429)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+1 second elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 328 portalclusters
+ 846 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 49 visible clusters (0.05%)
+Total clusters visible: 92527
+Average clusters visible: 282
+Building PAS...
+Average clusters audible: 328
+visdatasize:29570  compressed from 31488
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+1623 faces
+1724772 square feet [248367296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1623 patches before subdivision
+64751 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 3364912, max 1106
+transfer lists:  25.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12794, 12396, 9495)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(841, 772, 361)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(70, 61, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0109 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                120/8192         1440/98304    ( 1.5%) 
+brushsides             721/65536        5768/524288   ( 1.1%) 
+planes                 318/65536        6360/1310720  ( 0.5%) 
+vertexes              2230/65536       26760/786432   ( 3.4%) 
+nodes                  731/65536       23392/2097152  ( 1.1%) 
+texinfos               181/12288       13032/884736   ( 1.5%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1623/65536       90888/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              298/65536       16688/3670016  ( 0.5%) 
+leaves                 737/65536       23584/2097152  ( 1.1%) 
+leaffaces             1892/65536        3784/131072   ( 2.9%) 
+leafbrushes            517/65536        1034/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8557/512000      34228/2048000  ( 1.7%) 
+edges                 4721/256000      18884/1024000  ( 1.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            119/32768        1190/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1629/65536        3258/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1841696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29570/16777216 ( 0.2%) 
+entdata               [variable]       22009/393216   ( 5.6%) 
+LDR ambient table      737/65536        2948/262144   ( 1.1%) 
+HDR ambient table      737/65536        2948/262144   ( 1.1%) 
+LDR leaf ambient      3785/65536      105980/1835008  ( 5.8%) 
+HDR leaf ambient       737/65536       20636/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11758    ( 0.0%) 
+pakfile               [variable]      105663/0        ( 0.0%) 
+physics               [variable]       45282/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4121
+Writing h:\hammer project\hospital\Hospital.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (69202 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 480 texinfos to 330
+Reduced 17 texdatas to 16 (511 bytes to 460)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 466 portalclusters
+1309 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 157 visible clusters (0.09%)
+Total clusters visible: 180739
+Average clusters visible: 387
+Building PAS...
+Average clusters audible: 466
+visdatasize:58608  compressed from 59648
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+56 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2156 faces
+3 degenerate faces
+1725902 square feet [248529888.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2153 patches before subdivision
+65779 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4679815, max 1349
+transfer lists:  35.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15028, 14585, 11370)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1074, 996, 526)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(99, 89, 47)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(11, 10, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0109 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                183/8192         2196/98304    ( 2.2%) 
+brushsides            1114/65536        8912/524288   ( 1.7%) 
+planes                 544/65536       10880/1310720  ( 0.8%) 
+vertexes              3230/65536       38760/786432   ( 4.9%) 
+nodes                 1046/65536       33472/2097152  ( 1.6%) 
+texinfos               330/12288       23760/884736   ( 2.7%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2156/65536      120736/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              562/65536       31472/3670016  ( 0.9%) 
+leaves                1052/65536       33664/2097152  ( 1.6%) 
+leaffaces             2480/65536        4960/131072   ( 3.8%) 
+leafbrushes            752/65536        1504/131072   ( 1.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12349/512000      49396/2048000  ( 2.4%) 
+edges                 6816/256000      27264/1024000  ( 2.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            188/32768        1880/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3117/65536        6234/131072   ( 4.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1868896/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       58608/16777216 ( 0.3%) 
+entdata               [variable]       22009/393216   ( 5.6%) 
+LDR ambient table     1052/65536        4208/262144   ( 1.6%) 
+HDR ambient table     1052/65536        4208/262144   ( 1.6%) 
+LDR leaf ambient      4495/65536      125860/1835008  ( 6.9%) 
+HDR leaf ambient      1052/65536       29456/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9852     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       69202/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5791
+Writing h:\hammer project\hospital\Hospital.bsp
+8 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (72282 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 518 texinfos to 352
+Reduced 19 texdatas to 18 (577 bytes to 526)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 473 portalclusters
+1311 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 112 visible clusters (0.06%)
+Total clusters visible: 180967
+Average clusters visible: 382
+Building PAS...
+Average clusters audible: 472
+visdatasize:60177  compressed from 60544
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+42 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2220 faces
+2 degenerate faces
+1744627 square feet [251226304.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2218 patches before subdivision
+67500 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5017462, max 1365
+transfer lists:  38.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15055, 14695, 11396)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1071, 1019, 543)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(115, 107, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(26, 24, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(11, 10, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0113 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                192/8192         2304/98304    ( 2.3%) 
+brushsides            1168/65536        9344/524288   ( 1.8%) 
+planes                 556/65536       11120/1310720  ( 0.8%) 
+vertexes              3320/65536       39840/786432   ( 5.1%) 
+nodes                 1063/65536       34016/2097152  ( 1.6%) 
+texinfos               352/12288       25344/884736   ( 2.9%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2220/65536      124320/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              591/65536       33096/3670016  ( 0.9%) 
+leaves                1069/65536       34208/2097152  ( 1.6%) 
+leaffaces             2560/65536        5120/131072   ( 3.9%) 
+leafbrushes            773/65536        1546/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12725/512000      50900/2048000  ( 2.5%) 
+edges                 7027/256000      28108/1024000  ( 2.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            173/32768        1730/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2883/65536        5766/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1923868/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60177/16777216 ( 0.4%) 
+entdata               [variable]       21996/393216   ( 5.6%) 
+LDR ambient table     1069/65536        4276/262144   ( 1.6%) 
+HDR ambient table     1069/65536        4276/262144   ( 1.6%) 
+LDR leaf ambient      4431/65536      124068/1835008  ( 6.8%) 
+HDR leaf ambient      1069/65536       29932/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9850     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       72282/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5923
+Writing h:\hammer project\hospital\Hospital.bsp
+9 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (73314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 523 texinfos to 357
+Reduced 19 texdatas to 18 (577 bytes to 526)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+1 second elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 475 portalclusters
+1310 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 127 visible clusters (0.07%)
+Total clusters visible: 184240
+Average clusters visible: 387
+Building PAS...
+Average clusters audible: 474
+visdatasize:60628  compressed from 60800
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+47 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2239 faces
+3 degenerate faces
+1742788 square feet [250961472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2236 patches before subdivision
+67306 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4984311, max 1387
+transfer lists:  38.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15072, 14706, 11413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1129, 1072, 592)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(157, 148, 93)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(53, 48, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 25, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 14, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0113 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                196/8192         2352/98304    ( 2.4%) 
+brushsides            1192/65536        9536/524288   ( 1.8%) 
+planes                 560/65536       11200/1310720  ( 0.9%) 
+vertexes              3345/65536       40140/786432   ( 5.1%) 
+nodes                 1070/65536       34240/2097152  ( 1.6%) 
+texinfos               357/12288       25704/884736   ( 2.9%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2239/65536      125384/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              600/65536       33600/3670016  ( 0.9%) 
+leaves                1076/65536       34432/2097152  ( 1.6%) 
+leaffaces             2585/65536        5170/131072   ( 3.9%) 
+leafbrushes            781/65536        1562/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12887/512000      51548/2048000  ( 2.5%) 
+edges                 7121/256000      28484/1024000  ( 2.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            197/32768        1970/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3234/65536        6468/131072   ( 4.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1918944/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60628/16777216 ( 0.4%) 
+entdata               [variable]       21996/393216   ( 5.6%) 
+LDR ambient table     1076/65536        4304/262144   ( 1.6%) 
+HDR ambient table     1076/65536        4304/262144   ( 1.6%) 
+LDR leaf ambient      4389/65536      122892/1835008  ( 6.7%) 
+HDR leaf ambient      1076/65536       30128/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9850     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       73314/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6011
+Writing h:\hammer project\hospital\Hospital.bsp
+9 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (73314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 523 texinfos to 357
+Reduced 19 texdatas to 18 (577 bytes to 526)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 475 portalclusters
+1310 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 128 visible clusters (0.07%)
+Total clusters visible: 184241
+Average clusters visible: 387
+Building PAS...
+Average clusters audible: 474
+visdatasize:60628  compressed from 60800
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+47 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2239 faces
+3 degenerate faces
+1742788 square feet [250961472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2236 patches before subdivision
+67306 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4984311, max 1387
+transfer lists:  38.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15072, 14706, 11413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1129, 1072, 592)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(157, 148, 93)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(53, 48, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 25, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 14, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0112 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                196/8192         2352/98304    ( 2.4%) 
+brushsides            1192/65536        9536/524288   ( 1.8%) 
+planes                 560/65536       11200/1310720  ( 0.9%) 
+vertexes              3345/65536       40140/786432   ( 5.1%) 
+nodes                 1070/65536       34240/2097152  ( 1.6%) 
+texinfos               357/12288       25704/884736   ( 2.9%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2239/65536      125384/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              600/65536       33600/3670016  ( 0.9%) 
+leaves                1076/65536       34432/2097152  ( 1.6%) 
+leaffaces             2585/65536        5170/131072   ( 3.9%) 
+leafbrushes            781/65536        1562/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12887/512000      51548/2048000  ( 2.5%) 
+edges                 7121/256000      28484/1024000  ( 2.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            197/32768        1970/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3234/65536        6468/131072   ( 4.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1918944/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60628/16777216 ( 0.4%) 
+entdata               [variable]       21881/393216   ( 5.6%) 
+LDR ambient table     1076/65536        4304/262144   ( 1.6%) 
+HDR ambient table     1076/65536        4304/262144   ( 1.6%) 
+LDR leaf ambient      4388/65536      122864/1835008  ( 6.7%) 
+HDR leaf ambient      1076/65536       30128/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9850     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       73314/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6011
+Writing h:\hammer project\hospital\Hospital.bsp
+9 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (73314 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 523 texinfos to 357
+Reduced 19 texdatas to 18 (577 bytes to 526)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+1 second elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 475 portalclusters
+1310 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 128 visible clusters (0.07%)
+Total clusters visible: 184241
+Average clusters visible: 387
+Building PAS...
+Average clusters audible: 474
+visdatasize:60628  compressed from 60800
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+47 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2239 faces
+3 degenerate faces
+1742788 square feet [250961472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2236 patches before subdivision
+67306 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4984311, max 1387
+transfer lists:  38.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15072, 14706, 11413)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1129, 1072, 592)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(157, 148, 93)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(53, 48, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 25, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 14, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0112 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                196/8192         2352/98304    ( 2.4%) 
+brushsides            1192/65536        9536/524288   ( 1.8%) 
+planes                 560/65536       11200/1310720  ( 0.9%) 
+vertexes              3345/65536       40140/786432   ( 5.1%) 
+nodes                 1070/65536       34240/2097152  ( 1.6%) 
+texinfos               357/12288       25704/884736   ( 2.9%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2239/65536      125384/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              600/65536       33600/3670016  ( 0.9%) 
+leaves                1076/65536       34432/2097152  ( 1.6%) 
+leaffaces             2585/65536        5170/131072   ( 3.9%) 
+leafbrushes            781/65536        1562/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12887/512000      51548/2048000  ( 2.5%) 
+edges                 7121/256000      28484/1024000  ( 2.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            197/32768        1970/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3234/65536        6468/131072   ( 4.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1918944/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60628/16777216 ( 0.4%) 
+entdata               [variable]       21882/393216   ( 5.6%) 
+LDR ambient table     1076/65536        4304/262144   ( 1.6%) 
+HDR ambient table     1076/65536        4304/262144   ( 1.6%) 
+LDR leaf ambient      4388/65536      122864/1835008  ( 6.7%) 
+HDR leaf ambient      1076/65536       30128/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9850     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       73314/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6011
+Writing h:\hammer project\hospital\Hospital.bsp
+9 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (73686 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 529 texinfos to 360
+Reduced 20 texdatas to 19 (600 bytes to 549)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 474 portalclusters
+1312 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 130 visible clusters (0.07%)
+Total clusters visible: 182458
+Average clusters visible: 384
+Building PAS...
+Average clusters audible: 473
+visdatasize:60303  compressed from 60672
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+45 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2231 faces
+2 degenerate faces
+1743238 square feet [251026272.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2229 patches before subdivision
+67331 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4963488, max 1378
+transfer lists:  37.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15097, 14730, 11433)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1130, 1073, 593)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(157, 147, 92)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(52, 47, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(26, 24, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(15, 13, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0112 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                197/8192         2364/98304    ( 2.4%) 
+brushsides            1198/65536        9584/524288   ( 1.8%) 
+planes                 558/65536       11160/1310720  ( 0.9%) 
+vertexes              3329/65536       39948/786432   ( 5.1%) 
+nodes                 1061/65536       33952/2097152  ( 1.6%) 
+texinfos               360/12288       25920/884736   ( 2.9%) 
+texdata                 19/2048          608/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2231/65536      124936/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              603/65536       33768/3670016  ( 0.9%) 
+leaves                1067/65536       34144/2097152  ( 1.6%) 
+leaffaces             2580/65536        5160/131072   ( 3.9%) 
+leafbrushes            773/65536        1546/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            12849/512000      51396/2048000  ( 2.5%) 
+edges                 7114/256000      28456/1024000  ( 2.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            190/32768        1900/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3126/65536        6252/131072   ( 4.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1917908/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       60303/16777216 ( 0.4%) 
+entdata               [variable]       21882/393216   ( 5.6%) 
+LDR ambient table     1067/65536        4268/262144   ( 1.6%) 
+HDR ambient table     1067/65536        4268/262144   ( 1.6%) 
+LDR leaf ambient      4418/65536      123704/1835008  ( 6.7%) 
+HDR leaf ambient      1067/65536       29876/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9850     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       73686/4194304  ( 1.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5977
+Writing h:\hammer project\hospital\Hospital.bsp
+9 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (78152 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 625 texinfos to 391
+Reduced 25 texdatas to 24 (744 bytes to 693)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 493 portalclusters
+1352 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 122 visible clusters (0.06%)
+Total clusters visible: 188509
+Average clusters visible: 382
+Building PAS...
+Average clusters audible: 492
+visdatasize:64339  compressed from 63104
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+1 minute, 3 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2294 faces
+1 degenerate faces
+1744003 square feet [251136512.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2293 patches before subdivision
+67783 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5170633, max 1385
+transfer lists:  39.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15228, 14863, 11519)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1090, 1043, 563)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(110, 106, 61)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(19, 19, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0115 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                213/8192         2556/98304    ( 2.6%) 
+brushsides            1294/65536       10352/524288   ( 2.0%) 
+planes                 598/65536       11960/1310720  ( 0.9%) 
+vertexes              3444/65536       41328/786432   ( 5.3%) 
+nodes                 1102/65536       35264/2097152  ( 1.7%) 
+texinfos               391/12288       28152/884736   ( 3.2%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2294/65536      128464/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              630/65536       35280/3670016  ( 1.0%) 
+leaves                1108/65536       35456/2097152  ( 1.7%) 
+leaffaces             2658/65536        5316/131072   ( 4.1%) 
+leafbrushes            815/65536        1630/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13291/512000      53164/2048000  ( 2.6%) 
+edges                 7379/256000      29516/1024000  ( 2.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            212/32768        2120/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3411/65536        6822/131072   ( 5.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1981712/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       64339/16777216 ( 0.4%) 
+entdata               [variable]       22017/393216   ( 5.6%) 
+LDR ambient table     1108/65536        4432/262144   ( 1.7%) 
+HDR ambient table     1108/65536        4432/262144   ( 1.7%) 
+LDR leaf ambient      4628/65536      129584/1835008  ( 7.1%) 
+HDR leaf ambient      1108/65536       31024/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9856     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       78152/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6185
+Writing h:\hammer project\hospital\Hospital.bsp
+9 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (78544 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 625 texinfos to 394
+Reduced 25 texdatas to 24 (744 bytes to 693)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+1 second elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 500 portalclusters
+1372 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 121 visible clusters (0.06%)
+Total clusters visible: 193245
+Average clusters visible: 386
+Building PAS...
+Average clusters audible: 499
+visdatasize:66311  compressed from 64000
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+1 minute, 11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2301 faces
+1 degenerate faces
+1744004 square feet [251136576.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2300 patches before subdivision
+67776 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5174539, max 1384
+transfer lists:  39.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15245, 14879, 11532)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1093, 1046, 566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(110, 107, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(19, 19, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 6, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0113 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                213/8192         2556/98304    ( 2.6%) 
+brushsides            1294/65536       10352/524288   ( 2.0%) 
+planes                 608/65536       12160/1310720  ( 0.9%) 
+vertexes              3461/65536       41532/786432   ( 5.3%) 
+nodes                 1112/65536       35584/2097152  ( 1.7%) 
+texinfos               394/12288       28368/884736   ( 3.2%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2301/65536      128856/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              635/65536       35560/3670016  ( 1.0%) 
+leaves                1118/65536       35776/2097152  ( 1.7%) 
+leaffaces             2661/65536        5322/131072   ( 4.1%) 
+leafbrushes            818/65536        1636/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13356/512000      53424/2048000  ( 2.6%) 
+edges                 7421/256000      29684/1024000  ( 2.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            213/32768        2130/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3417/65536        6834/131072   ( 5.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1981932/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       66311/16777216 ( 0.4%) 
+entdata               [variable]       22017/393216   ( 5.6%) 
+LDR ambient table     1118/65536        4472/262144   ( 1.7%) 
+HDR ambient table     1118/65536        4472/262144   ( 1.7%) 
+LDR leaf ambient      4658/65536      130424/1835008  ( 7.1%) 
+HDR leaf ambient      1118/65536       31304/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9856     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       78544/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6216
+Writing h:\hammer project\hospital\Hospital.bsp
+8 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (78328 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 619 texinfos to 392
+Reduced 25 texdatas to 24 (744 bytes to 693)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 501 portalclusters
+1378 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.07%)
+Total clusters visible: 196006
+Average clusters visible: 391
+Building PAS...
+Average clusters audible: 500
+visdatasize:66459  compressed from 64128
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+1 minute, 12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2298 faces
+1 degenerate faces
+1743861 square feet [251116000.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2297 patches before subdivision
+67759 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5176127, max 1384
+transfer lists:  39.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15181, 14820, 11483)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1071, 1027, 552)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(105, 103, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(18, 18, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0120 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                212/8192         2544/98304    ( 2.6%) 
+brushsides            1288/65536       10304/524288   ( 2.0%) 
+planes                 604/65536       12080/1310720  ( 0.9%) 
+vertexes              3449/65536       41388/786432   ( 5.3%) 
+nodes                 1112/65536       35584/2097152  ( 1.7%) 
+texinfos               392/12288       28224/884736   ( 3.2%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2298/65536      128688/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              633/65536       35448/3670016  ( 1.0%) 
+leaves                1118/65536       35776/2097152  ( 1.7%) 
+leaffaces             2657/65536        5314/131072   ( 4.1%) 
+leafbrushes            817/65536        1634/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13324/512000      53296/2048000  ( 2.6%) 
+edges                 7395/256000      29580/1024000  ( 2.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            209/32768        2090/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1981440/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       66459/16777216 ( 0.4%) 
+entdata               [variable]       22017/393216   ( 5.6%) 
+LDR ambient table     1118/65536        4472/262144   ( 1.7%) 
+HDR ambient table     1118/65536        4472/262144   ( 1.7%) 
+LDR leaf ambient      4658/65536      130424/1835008  ( 7.1%) 
+HDR leaf ambient      1118/65536       31304/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9856     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       78328/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6198
+Writing h:\hammer project\hospital\Hospital.bsp
+9 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\nmrih\nmrih\materials
+Loading H:\Hammer Project\Hospital\Hospital.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing H:\Hammer Project\Hospital\Hospital.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (78328 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 619 texinfos to 392
+Reduced 25 texdatas to 24 (744 bytes to 693)
+Writing H:\Hammer Project\Hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'H:\Hammer Project\Hospital\Hospital.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 212192, actual size 211576
+2 seconds elapsed
+
+
+
+20 threads
+reading h:\hammer project\hospital\Hospital.bsp
+reading h:\hammer project\hospital\Hospital.prt
+ 501 portalclusters
+1376 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 148 visible clusters (0.08%)
+Total clusters visible: 195985
+Average clusters visible: 391
+Building PAS...
+Average clusters audible: 500
+visdatasize:66476  compressed from 64128
+writing h:\hammer project\hospital\Hospital.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'h:\hammer project\hospital\Hospital.bsp', but we don't own that location. Allowing.
+1 minute, 12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[49 texlights parsed from 'lights.rad']
+
+Loading h:\hammer project\hospital\Hospital.bsp
+2298 faces
+1 degenerate faces
+1743860 square feet [251115968.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2297 patches before subdivision
+67761 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5176160, max 1384
+transfer lists:  39.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15182, 14820, 11483)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1071, 1027, 552)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(105, 103, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(18, 18, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0113 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                212/8192         2544/98304    ( 2.6%) 
+brushsides            1288/65536       10304/524288   ( 2.0%) 
+planes                 604/65536       12080/1310720  ( 0.9%) 
+vertexes              3449/65536       41388/786432   ( 5.3%) 
+nodes                 1115/65536       35680/2097152  ( 1.7%) 
+texinfos               392/12288       28224/884736   ( 3.2%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2298/65536      128688/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              633/65536       35448/3670016  ( 1.0%) 
+leaves                1121/65536       35872/2097152  ( 1.7%) 
+leaffaces             2657/65536        5314/131072   ( 4.1%) 
+leafbrushes            819/65536        1638/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13324/512000      53296/2048000  ( 2.6%) 
+edges                 7395/256000      29580/1024000  ( 2.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            209/32768        2090/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1981448/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       66476/16777216 ( 0.4%) 
+entdata               [variable]       21888/393216   ( 5.6%) 
+LDR ambient table     1121/65536        4484/262144   ( 1.7%) 
+HDR ambient table     1121/65536        4484/262144   ( 1.7%) 
+LDR leaf ambient      4658/65536      130424/1835008  ( 7.1%) 
+HDR leaf ambient      1121/65536       31388/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9856     ( 0.0%) 
+pakfile               [variable]      211576/0        ( 0.0%) 
+physics               [variable]       78328/4194304  ( 1.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 6198
+Writing h:\hammer project\hospital\Hospital.bsp
+8 seconds elapsed
